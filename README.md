@@ -4,4 +4,4 @@
 
 ![Website Pic](/readmeImg.jpg)
 
-# [Смотреть демо]()
+# [Смотреть демо](https://whack-a-mole-nu-ashen.vercel.app/)
