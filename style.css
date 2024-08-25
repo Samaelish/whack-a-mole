@@ -1,6 +1,7 @@
 .grid {
-  width: 606px;
   height: 606px;
+  width: 606px;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -8,6 +9,7 @@
 .square {
   height: 200px;
   width: 200px;
+  max-width: 100%;
   border: solid black 1px;
 }
 
@@ -15,3 +17,4 @@
   background-image: url('cockroach.svg');
   background-size: cover;
 }
+
