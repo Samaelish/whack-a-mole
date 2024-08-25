@@ -24,7 +24,7 @@ function randomSquare() {
   })
 
   // Выбираем случайный квадрат
-  let randomSquare = squares[Math.floor(Math.random() * 9)]
+  let randomSquare = squares[Math.floor(Math.random() * squares.length)]
   randomSquare.classList.add('cockroach')
 
   // Обновляем позицию попадания
