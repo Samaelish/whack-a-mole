@@ -1,7 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .grid {
-  height: 606px;
-  width: 606px;
-  max-width: 100%;
+  height: 600px;
+  width: 600px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -9,7 +19,6 @@
 .square {
   height: 200px;
   width: 200px;
-  max-width: 100%;
   border: solid black 1px;
 }
 
@@ -18,3 +27,13 @@
   background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  .grid {
+    max-height: 300px;
+    max-width: 300px;
+  }
+  .square {
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
